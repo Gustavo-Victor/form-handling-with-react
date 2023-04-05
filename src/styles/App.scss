@@ -1,0 +1,21 @@
+@import "./variables";
+
+.App {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 1rem auto;     
+    display: flex;
+    background-color: $app-bg-color; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 520px) {
+    .App {    
+        width: 90vw;
+    }
+}
